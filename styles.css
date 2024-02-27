@@ -7,7 +7,6 @@ header img {
   display: flex;
   padding: 2rem 0;
   position: fixed;
-  top: 0;
   width: 100vw;
   background-color: white;
   z-index: 1000;
@@ -72,14 +71,15 @@ div.twoparagraphs {
   justify-content: space-between;
 }
 .p1 {
-  width: 150px;
-  height: 150px;
-  padding-right: 30px;
-  align-items: center;
-  justify-content: center;
-  background: #00b39bd;
-
+  margin-bottom: 20px;
+  display: flex;
+  text-align: justify;
 }
+
+.p2 {
+  text-align: justify;
+}
+
 /* section2done */
 .for1 {
   background-color: #00ccb1;
@@ -100,7 +100,7 @@ div.twoparagraphs {
   height: 345px;
 }
 .for3 {
-  background-color: #1b2734;
+  background-color: palegreen;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -215,6 +215,7 @@ div.forsection {
   color: #747474;
   padding-bottom: 50px;
 }
+
 .first2 {
   display: flex;
   flex-direction: column;
@@ -353,6 +354,33 @@ div.forsection {
 }
 .country div:hover {
   box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.warsaw {
+  width: 300px;
+}
+.barcelona {
+  width: 300px;
+}
+.munich {
+  width: 300px;
+}
+.instabul {
+  width: 300px;
+}
+.Rome {
+  width: 300px;
+}
+.bologna {
+  width: 300px;
+}
+.curitiba {
+  width: 300px;
+}
+.rio-janeiro {
+  width: 300px;
+}
+.mexico {
+  width: 300px;
 }
 div .buttons {
   display: flex;
